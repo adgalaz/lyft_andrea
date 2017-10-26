@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav.mainMenu {
+  outline: 1px solid red;
+  background-image: url(../assets/images/hero.gif);
+  background-size: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container {
+  outline: 1px solid blue;
+  width: 100%;
+  max-width: 1210px;
+  padding: 44px 15px 8px 15px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+img.logo{
+  width: 65px;
+  height: auto;
+}
+
+div.subContainer {
+  outline: 1px solid orange;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  margin-left: 634px
+}
+
+li.menuItem {
+  display: inline-block;
+  list-style: none;
+}
+
+a.linkItem{
+  font-size: 18px;
+  color: #fff;
+  padding: 24px;
+}
+
+a.linkItem:hover{
+  color: #FF00BF;
+  cursor: pointer;
+}
+
+li#button1{
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+img.backImage{
+  width: -webkit-fill-available;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.sectionBox{
+  outline: 1px solid red;
+  width: 560px;
+  height: auto;
+  background: #FFF;
+    position: absolute;
+  top: 113px;
+  right: 0;
+}
+
+h1.titleBox{
+  font-size: 40px;
+  font-weight: bold;
+  color: #352384;
+  text-transform: uppercase;
+  margin: 65px 0px 0px 62px;
+}
+
+h2.subTitleBox{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #352384;
+  text-transform: uppercase;
+  margin-left: 62px;
+  margin-top: 10px;
+}
+
+input.phoneNumber{
+  width: 450px;
+  height: auto;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #D6DBE7;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-color: #352384;
+  border-bottom-width: thin;
+  margin-top: 25px;
+  margin-left: 62px;
+}
+
+div.buttonLink{
+  margin-left: 62px;
+  margin-top: 32px;
+}
+
+a.button2{
+  font-weight: bold;
+  background-color: #ff00bf;
+  border-radius: 5px;
+  padding: 12px 20px;
+  color: #fff;
+}
+
+#linkSignUp{
+  text-decoration: underline;
+  padding: 12px 20px;
+}
+
+p.text1{
+  font-size: 10px;
+  font-weight: 300;
+  color: #728099;
+  font-weight: 300;
+  margin-left: 62px;
+  margin-top: 30px;
+}
+
+p a.pinkLink{
+  color: #ff00bf;
+}
+
+p.text2{
+  font-size: 10px;
+  font-weight: 300;
+  color: #728099;
+  font-weight: 300;
+  margin-left: 62px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+section.phone{
+  background: linear-gradient(to right bottom, #76278F, #2B1E66);
+  color: #fff;
+  height: 650px;
+  margin-top: -5px;
+}
+
+div.sectionBoxPhone{
+  outline: 1px solid orange;
+  width: 550px;
+  height: auto;
+  margin-left: 150px;
+}
+
+img.imagePhone{
+  width: 500px;
+  position: absolute;
+  right: 0;
+  top: 820px;
+  margin-right: 150px;
+}
+
+h2.title1{
+  font-size: 28px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+
+p.textPhone{
+  font-size: 24px;
+  font-weight: lighter;
+  padding-bottom: 70px;
+}
+
+h2.title2{
+  font-size: 28px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+
+p.textPhone{
+  font-size: 16px;
+  font-weight: 300px;
+  padding-bottom: 70px;
+}
+
+h2.title3{
+  font-size: 28px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
