@@ -1,15 +1,17 @@
+/*Para eliminar margenes y padding por defecto*/
 *{
   margin: 0;
   padding: 0;
 }
 
+/*Tipografia para textos*/
 body{
   font-family: 'Montserrat', sans-serif;
 }
 
+/*Caracteristivas del menu, posicion y background*/
 nav.mainMenu {
-  outline: 1px solid red;
-  background-image: url(../assets/images/hero.gif);
+  background-image: url(../assets/images/header-image.png);
   background-size: 100%;
   position: fixed;
   top: 0;
@@ -18,8 +20,8 @@ nav.mainMenu {
   z-index: 1;
 }
 
+/*Contenedo para mejor distribucion de los enlaces contenidos en el menu*/
 .container {
-  outline: 1px solid blue;
   width: 100%;
   max-width: 1210px;
   padding: 44px 15px 8px 15px;
@@ -30,17 +32,19 @@ nav.mainMenu {
   display: flex;
 }
 
+/*Eliminar linea inferior en los enlaces*/
 a{
   text-decoration: none;
 }
 
+/*Caracteristicas del logo*/
 img.logo{
   width: 65px;
   height: auto;
 }
 
+/*caja para distribuir enlaces a la derecha del menu*/
 div.subContainer {
-  outline: 1px solid orange;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -48,56 +52,70 @@ div.subContainer {
   margin-left: 634px
 }
 
+/*Organizacion horizontal de los elementos del menu y eliminar punto por defecto en listas no ordenadas*/
 li.menuItem {
   display: inline-block;
   list-style: none;
 }
 
+/*Tamaño de letra y color elementos del menu*/
 a.linkItem{
   font-size: 18px;
   color: #fff;
   padding: 24px;
 }
 
+/*Efecto hover en elementos del menu*/
 a.linkItem:hover{
   color: #FF00BF;
   cursor: pointer;
 }
 
+/*Contorno del boton log in en menu*/
 li#button1{
   border: 1px solid #fff;
   border-radius: 5px;
   padding: 5px 0;
 }
 
-img.backImage{
-  width: -webkit-fill-available;
+/*caracteristicas de la primera seccion*/
+section.becomeDriver{
+  width: 100%;
+  height: auto;
+}
+
+/*caracteristicas de video de fondo*/
+video{
+  width: 100%;
   height: auto;
   position: relative;
   top: 0;
   left: 0;
+  margin-top: -100px;
 }
 
-div.sectionBox{
-  outline: 1px solid red;
+/*caracteristicas caja contenedora formulario*/
+div.formBox{
   width: 560px;
   height: auto;
   background: #FFF;
-    position: absolute;
+  position: absolute;
   top: 113px;
   right: 0;
 }
 
+/*titulo del formilario*/
 h1.titleBox{
-  font-size: 40px;
+  font-size: 44px;
   font-weight: bold;
   color: #352384;
   text-transform: uppercase;
   margin: 65px 0px 0px 62px;
 }
 
+/*subtitulo del formulario*/
 h2.subTitleBox{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   color: #352384;
@@ -106,10 +124,11 @@ h2.subTitleBox{
   margin-top: 10px;
 }
 
+/*input numero telefonico*/
 input.phoneNumber{
   width: 450px;
   height: auto;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: #D6DBE7;
   border-left: none;
@@ -121,11 +140,13 @@ input.phoneNumber{
   margin-left: 62px;
 }
 
+/*ubicacion del boton become a driver*/
 div.buttonLink{
   margin-left: 62px;
   margin-top: 32px;
 }
 
+/*caracteristicas del boton become a driver*/
 a.button2{
   font-weight: bold;
   background-color: #ff00bf;
@@ -134,11 +155,13 @@ a.button2{
   color: #fff;
 }
 
+/*agregar linea abajo de enlace sign up to drive*/
 #linkSignUp{
   text-decoration: underline;
   padding: 12px 20px;
 }
 
+/*caracteristicas texto bajo boton*/
 p.text1{
   font-size: 10px;
   font-weight: 300;
@@ -148,10 +171,12 @@ p.text1{
   margin-top: 30px;
 }
 
+/*caracteristicas links seccion uno*/
 p a.pinkLink{
   color: #ff00bf;
 }
 
+/*caracteristicas segundo texto bajo boton become a driver*/
 p.text2{
   font-size: 10px;
   font-weight: 300;
@@ -159,61 +184,269 @@ p.text2{
   font-weight: 300;
   margin-left: 62px;
   margin-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
+/*tamaño segunda seccion transicion*/
+section.transition{
+  width: 100%;
+  height: auto;
+  margin-top: -94px;
+}
+
+/*gradiente de color segunda seccion y posicionamiento*/
+div.transitionColor{
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(transparent, #76278f);
+  position: absolute;
+}
+
+/*caracteristicas tersena seccion*/
 section.phone{
-  background: linear-gradient(to right bottom, #76278F, #2B1E66);
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#76278F, #2B1E66);
   color: #fff;
-  height: 650px;
-  margin-top: -5px;
+  height: 620px;
+  margin-top: 50px;
+  position: relative;
 }
 
-div.sectionBoxPhone{
-  outline: 1px solid orange;
-  width: 550px;
+/*contenedor para texto*/
+div.phoneBox{
+  width: 460px;
   height: auto;
   margin-left: 150px;
 }
 
+/*coracteristicas de la imagen*/
 img.imagePhone{
-  width: 500px;
+  width: 520px;
   position: absolute;
   right: 0;
-  top: 820px;
+  top: 20px;
   margin-right: 150px;
 }
 
+/*caracteristicas titulo*/
 h2.title1{
   font-size: 28px;
   font-weight: 500px;
   text-transform: uppercase;
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 24px;
 }
 
+/*caracteristicas textos*/
 p.textPhone{
   font-size: 24px;
   font-weight: lighter;
   padding-bottom: 70px;
 }
 
-h2.title2{
+/*caracteristicas titulos*/
+h2.title2, h2.title3{
   font-size: 28px;
   font-weight: 500px;
   text-transform: uppercase;
   padding-bottom: 24px;
 }
 
+/*caracteristicas textos*/
 p.textPhone{
   font-size: 16px;
-  font-weight: 300px;
+  font-weight: lighter;
+  line-height: 1.5;
   padding-bottom: 70px;
 }
 
-h2.title3{
-  font-size: 28px;
-  font-weight: 500px;
+/*caracteristicas seccion videos*/
+section.video{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  display: flex;
+}
+
+/*caracteristicas dimensiones del contenedor textos*/
+div.videoBox{
+  width: 35%;
+  height: auto;
+}
+
+/*caracteristicas contenedor videos*/
+iframe{
+  width: 65%;
+  height: 500px;
+}
+
+/*caracteristicas titulos*/
+h3.subtitleVideo{
   text-transform: uppercase;
-  padding-bottom: 24px;
+  margin: 30px 40px 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*caracteristicas titulos*/
+h2.titleVideo{
+  text-transform: uppercase;
+  margin: 0px 40px 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/*caracteristicas textos*/
+p.textVideo{
+  margin: 0px 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*Caracteristicas tamaño seccion footer*/
+footer{
+  width: 100%;
+  height: auto;
+  background: #333447;
+}
+
+/*caracteristicas container*/
+div.containerFooter{
+  width: 100%;
+  height: auto;
+  max-width: 1140px;
+  padding: 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+/*Dimensiones div columnas*/
+div.column{
+  width: 200px;
+  height: auto;
+  margin-left: 50px;
+}
+
+/*eliminar estilo (punto) listas no ordenadas*/
+li{
+  list-style: none;
+}
+
+/*caracteristicas de los titulos*/
+h2.titleFooter{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 44px 0px 25px;
+}
+
+/*Efecto linea en titulos*/
+h2.titleFooter:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*espacios entre textos*/
+li.listFooter{
+  padding-bottom: 18px;
+}
+
+/*carateristicas textos*/
+a.textFooter{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/*efecto cambio de color y linea en los textos*/
+a.textFooter:hover{
+  color: #b30086;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*dimensiones de las imagenes*/
+img.imageFooter{
+  width: 150px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+/*padding superior imagenes*/
+div#images{
+  padding-top: 44px;
+}
+
+/*caracteristicas dimension y posicion iconos*/
+div.iconsFooter{
+  display: flex;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+/*centrando iconos en circulo contenedor*/
+a.icon p{
+  padding-top: 7px;
+}
+
+/*circulo contenedor de iconos*/
+a.icon{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin: 0px auto;
+}
+
+/*caracteristicas icono facebook*/
+.icon-facebook:before {
+  content: "\ea90";
+  color: #fff;
+  font-size: 16px;
+}
+
+/*caracteristicas icono instagram*/
+.icon-instagram:before {
+  content: "\ea92";
+  color: #fff;
+  font-size: 16px;
+}
+
+/*caracteristicas icono twitter*/
+.icon-twitter:before {
+  content: "\ea96";
+  color: #fff;
+  font-size: 16px;
+}
+
+/*estilos linea bajo los iconos*/
+hr{
+  width: 750px;
+  border-width: 0.5px;
+  margin: 5px auto;
+}
+
+/*caracteristicas tipografia de informacion de copyright*/
+div.lastFooter{
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+  padding: 10px 0px 40px;
+}
+
+/*espacio entre palabras terms y privacy*/
+#txtFoo1, #txtFoo2{
+  padding: 0px 5px;
 }
