@@ -11,7 +11,7 @@ body{
 
 /*Caracteristivas del menu, posicion y background*/
 nav.mainMenu {
-  background-image: url(../assets/images/header-image.png);
+  background-image: url(../assets/images/header-image.PNG);
   background-size: 100%;
   position: fixed;
   top: 0;
